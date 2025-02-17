@@ -1,21 +1,20 @@
-'''Write a program that takes a phrase or sentence as 
-input (e.g., "Federal Bureau of Investigation")
-and generates the corresponding acronym (e.g., "FBI").
-The acronym should be formed by taking the first letter 
-of each word and converting it to uppercase.'''
+#1. Ask user input
+#2. Loop through characters (For Loop)
+#3. Get 1st letter of each word (Indexing)
+#4. Convert to uppercase (.upper())
+#5. Return acronym
 
-#Pseudo/think
+word = input(f"Enter a sentence or phrase >\n").replace()
 
-'''
-1. Ask user input
-2. Loop through characters (For Loop)
-3. Get 1st letter of each word (Indexing)
-4. Convert to uppercase (.upper())
-5. Return acronym'''
-
-word = input(f"Enter a sentence or phrase >\n")
+#def acro(word):
+    #for i in range(len(word)):
+        #str.captialize(word)
+        
+            
+    #return word
 
 def acro(word):
-    for i in word:
-        
-
+    for i in range(word):
+        word.split()
+        new_word = print(word[0])
+    return new_word
