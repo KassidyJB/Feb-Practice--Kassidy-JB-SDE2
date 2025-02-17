@@ -4,7 +4,7 @@
 #4. Convert to uppercase (.upper())
 #5. Return acronym
 
-word = input(f"Enter a sentence or phrase >\n").replace()
+word = input(f"Enter a sentence or phrase >\n")#.replace()
 
 #def acro(word):
     #for i in range(len(word)):
