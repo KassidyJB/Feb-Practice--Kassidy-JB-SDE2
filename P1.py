@@ -14,7 +14,9 @@ word = input(f"Enter a sentence or phrase >\n").replace()
     #return word
 
 def acro(word):
-    for i in range(word):
-        word.split()
-        new_word = print(word[0])
-    return new_word
+    for i in range(word): #Looping through letters in the word
+        word.split() #if input is a phrase, split based on spaces 
+        #so spaces don't give a problem and work in favor
+        new_word = print(word[0]).upper() #print the first letter of word by
+        # 0 (first index) and capitalize it
+    return new_word.join()#Join all first letters together
